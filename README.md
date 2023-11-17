@@ -19,7 +19,7 @@ The project is organized into the following sections:
 
 - **Testing and Optimization**: The initial model is tested, and its performance is evaluated. A Grid Search is then conducted to optimize the model's hyperparameters. The final optimized model demonstrates improved accuracy and AUC score.
 
-- **Deployment**: The optimized model is saved for future use, and a README.md file is created to guide users on how to utilize the model for predicting customer churn.
+- **Deployment**: The optimized model is saved for future use and exported with a .h5 extension. 
 
 
 ## Functionalities
@@ -43,9 +43,6 @@ Use the sidebar to input parameters such as tenure, internet service, contract, 
 
 ### Prediction
 Click the 'Predict' button to obtain the model's churn prediction.
-
-### Thresholding
-Customize the threshold for converting raw probabilities to class labels based on your desired confidence level.
 
 ### APPLICATION DEMO:
 https://github.com/pl2-uy/80922025_Churning_Customers/assets/123755107/8370a3d3-2b69-4aaa-a2e8-a20bce3a36e6
